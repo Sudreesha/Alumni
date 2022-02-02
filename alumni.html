@@ -1,0 +1,234 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://getbootstrap.com/docs/3.4/examples/starter-template/">
+
+    <title>REVA Alumni Register</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="starter-template.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   
+  </head>
+
+  <body style="background-color: black;">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="login.html">Log In</a></li>
+            <li class="active"><a href="alumni.html">Alumni Register</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    
+    
+    
+    <section id="log">
+      <div data-aos="flip-right" data-aos-duration="3000">
+      <div class="loginbox">
+         <img src="img/logo.jpg" alt="" style="height: 50px;margin-left:270px">
+         <h1><center>Register yourself</center></h1>
+         <form action="">
+          <div class="col-md-6">
+           <input type="text" class="form-control" placeholder="Name" id="exampleInputText1" aria-describedby="textHelp" style="border-radius: 20px; margin-top:20px;margin-left:10px;font-size:20px;border:solid rgb(241, 136, 15) 2px;width:100% ">
+           <input type="password" class="form-control" placeholder="Password" id="exampleInputText1" aria-describedby="passwordHelp" style="border-radius: 20px; margin-top:20px;margin-left:10px;font-size:20px;border:solid rgb(241, 136, 15) 2px ;width:80%">
+          </div>
+          <div class="col-md-6">
+          <input type="Email" class="form-control" placeholder="Email/Username" id="exampleInputEmail1" aria-describedby="emailHelp" style="border-radius: 20px; margin-top:20px;margin-left:10px;font-size:20px;border:solid rgb(241, 136, 15) 2px ;width:100%">
+          <input type="number" class="form-control" placeholder="ConfirmPassword" id="exampleInputText1" aria-describedby="passwordHelp" style="border-radius: 20px; margin-top:20px;margin-left:10px;font-size:20px;border:solid rgb(241, 136, 15) 2px ;width:80%">
+          
+          </div>
+          <div class="col-md-6">
+             <input type="number" class="form-control" placeholder="Contact number" style="border-radius: 20px; margin-top:50px;margin-left:10px;font-size:20px;border:solid rgb(241, 136, 15) 2px ;width:80%">
+             <input type="text" class="form-control" placeholder="Specializaion" style="border-radius: 20px; margin-top:20px;margin-left:10px;font-size:20px;border:solid rgb(241, 136, 15) 2px ;width:80%">
+             <select id="gender" name="Select Gender" style="border-radius: 20px; margin-top:20px;margin-left:10px;font-size:20px;border:solid rgb(241, 136, 15) 2px ;width:80%;">
+                <option value="">Select Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+              </select>
+              <select  id="bloodgroup" style="border-radius: 20px; margin-top:20px;margin-left:10px;font-size:20px;border:solid rgb(241, 136, 15) 2px ;width:80%;">
+                <option value="">Select Blood Group</option>
+                <option value="a+">A+</option>
+                <option value="b+">B+</option>
+                <option value="o+">O+</option>
+                <option value="ab+">AB+</option>
+                <option value="a-">A-</option>
+                <option value="b-">B-</option>
+                <option value="o-">O-</option>
+                <option value="ab-">AB-</option>
+              </select>
+          </div>
+          <div class="col-md-6">
+            <select  id="course" style="border-radius: 20px; margin-top:50px;margin-left:10px;font-size:20px;border:solid rgb(241, 136, 15) 2px ;width:80%;">
+                <option value="">Select Course Pursued</option>
+                <option value="bt">BTech</option>
+                <option value="mt">MTech</option>
+                <option value="barc">BArch</option>
+                <option value="marc">MArch</option>
+                <option value="bc">BCom</option>
+                <option value="mc">MCom</option>
+                <option value="bba">BBA</option>
+                <option value="mba">MBA</option>
+                <option value="bca">BCA</option>
+                <option value="mca">MCA</option>
+                <option value="bsc">B.Sc</option>
+                <option value="msc">M.Sc</option>
+                <option value="ba">BA</option>
+                <option value="ma">MA</option>
+                <option value="mpa">MPA</option>
+                <option value="dip">Diploma</option>
+                <option value="pg">PG Diploma</option>
+                <option value="c">Certificate</option>
+                <option value="legal">Legal Studies</option>
+              </select>
+              <select  id="year" style="border-radius: 20px; margin-top:30px;margin-left:10px;font-size:20px;border:solid rgb(241, 136, 15) 2px ;width:80%;">
+                <option value="">Select Year of Graduation</option>
+                <option value="4">2004</option>
+                <option value="5">2005</option>
+                <option value="6">2006</option>
+                <option value="7">2007</option>
+                <option value="8">2008</option>
+                <option value="9">2009</option>
+                <option value="10">2010</option>
+                <option value="11">2011</option>
+                <option value="12">2012</option>
+                <option value="13">2013</option>
+                <option value="14">2014</option>
+                <option value="15">2015</option>
+                <option value="16">2016</option>
+                <option value="17">2017</option>
+                <option value="18">2018</option>
+                <option value="19">2019</option>
+                <option value="20">2020</option>
+                <option value="21">2021</option>
+              </select>
+              <input type="text" placeholder="DOB" class="form-control" style="border-radius: 20px; margin-top:20px;margin-left:10px;font-size:20px;border:solid rgb(241, 136, 15) 2px ;width:80%;">
+              <select id="marital" style="border-radius: 20px; margin-top:20px;margin-left:10px;font-size:20px;border:solid rgb(241, 136, 15) 2px ;width:80%;">
+                  <option value="">Select Marital Status</option>
+                  <option value="m">Married</option>
+                  <option value="s">Single</option>
+              </select>
+          </div>
+          <button type="submit" class="btn btn-primary" style="color:white; background-color:rgb(241, 136, 15); color:white; font-weight:bold;margin-top:20px;margin-left:300px;font-size:25px;border-radius:20px;border:transparent">Sign Up</button>
+         </form>
+         <h3 style="margin-left: 180px;">Already Registered?<a href="login.html">Log-In here.</a></h3>
+
+      </div>
+      </div>
+    </section>
+    <section id="features" style="background-color:rgb(71, 63, 54); background-size: cover; width:100% ; height:400px; margin-top:20px" >
+      <div class="container" >
+        <div class="row" >
+          <div data-aos="zoom-in" data-aos-duration="3000">
+          <div class="col-md-3">
+            <style>
+             
+            </style>
+            <h4 style="font-weight: bold; color:white;margin-top:30px">Abroad connect</h4>
+            <ul style="font-size: 15px; list-style:none; line-height:2em; font-weight:bold; color:white">
+              <li><i class="glyphicon glyphicon-ok"></i> Referral for Higher studies</li>
+              <li><i class="glyphicon glyphicon-ok"></i> Internships/scholarship opportunity</li>
+              
+            </ul>
+            <h4 style="font-weight: bold; color:white">Alumni Speak/conversation Alumni Assist</h4>
+            <ul style="font-size: 15px; list-style:none; line-height:2em; font-weight:bold; color:white">
+              <li><i class="glyphicon glyphicon-ok"></i> Apply for Transcript</li>
+              <li><i class="glyphicon glyphicon-ok"></i> Apply for Transfer certificate/Migration Certificate</li>
+              <li><i class="glyphicon glyphicon-ok"></i> Apply for Accommodation in Guest House</li>
+              <li><i class="glyphicon glyphicon-ok"></i> Any query ?</li>
+            </ul>
+           </div>
+           <div class="col-md-3">
+            <style>
+             
+            </style>
+            <h4 style="font-weight: bold; color:white;margin-top:30px">Societal Activity</h4>
+            <ul style="font-size: 15px; list-style:none; line-height:2em; font-weight:bold; color:white">
+              <li><i class="glyphicon glyphicon-ok"></i> Scholarships</li>
+              <li><i class="glyphicon glyphicon-ok"></i> Best Project awards</li>
+              <li><i class="glyphicon glyphicon-ok"></i> Student Project Funding</li>
+              <li><i class="glyphicon glyphicon-ok"></i> Alumni Association Endowment gold Medal for best outgoing student</li>
+              <li><i class="glyphicon glyphicon-ok"></i> Alumni Book Bank</li>
+              <li><i class="glyphicon glyphicon-ok"></i> Volunteering</li>
+              <li><i class="glyphicon glyphicon-ok"></i> Abhivruddhi</li>
+              <li><i class="glyphicon glyphicon-ok"></i> Health care</li>
+              <li><i class="glyphicon glyphicon-ok"></i> Contribution/Donation</li>
+            </ul>
+            
+           </div>
+           </div>
+          <div data-aos="zoom-in" data-aos-duration="3000">
+          <div class="col-md-6">
+            <h2 style="color:rgb(241, 136, 15); margin-top:100px; margin-left:70px"><b>For any queries,feedback and comments please write to</b></h2>
+            <button style="background-color: crimson; color:white; border-radius:20px;width:30%;height:40px;margin-left:170px;margin-top:20px;border:transparent">alumni@reva.in</button>
+           <style>
+             @media(max-width:768px){
+                .medium{
+                  width:102.5% !important;
+                }
+              @media(max-width:500px){
+                .medium{
+                  width:103.5% !important;
+                }
+              }
+             }
+           </style>
+
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+   
+    <footer style="background-color: black; color:rgb(241, 136, 15); padding:30px 0 20px 0;">
+      <div class="container">
+      
+          
+          
+            <p style="float: right;"><center>Copyright &copy; 2021, All Rights Reserved</center></p>
+          
+        
+      </div>
+
+    </footer>
+
+    
+    <script>
+      AOS.init();
+    </script>
+
+   
+  </body>
+</html>
